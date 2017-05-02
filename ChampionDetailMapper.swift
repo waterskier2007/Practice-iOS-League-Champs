@@ -7,3 +7,27 @@
 //
 
 import Foundation
+import ObjectMapper
+
+
+public class ChampionDetail: Mappable{
+    
+    public var name : String?
+    public var image : String?
+    
+    
+    init(){
+        
+    }
+    
+    required public init?(map: Map){
+        name    <- map["key.name"]
+        image   <- map["key.image.full"]
+
+    }
+    
+    //Mappable
+    public func mapping(map: Map) {
+        
+    }
+}

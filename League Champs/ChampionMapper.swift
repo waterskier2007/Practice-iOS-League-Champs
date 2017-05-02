@@ -7,3 +7,33 @@
 //
 
 import Foundation
+import ObjectMapper
+
+
+public class ChampionList: Mappable{
+    
+    public var champs : [String : AnyObject]?
+    var championInfo : [ChampionDetail]?
+    
+    init(){
+        
+    }
+    
+    required public init?(map: Map){
+        champs  <- map["data"]
+        
+        
+        for champions in champs!{
+            if let championData = Mapper<ChampionDetail>().map(JSONObject: champions.value){
+                championInfo?.append(championData)
+            }
+           print(championInfo)
+        }
+    }
+    
+    
+    //Mappable
+    public func mapping(map: Map) {
+        
+    }
+}

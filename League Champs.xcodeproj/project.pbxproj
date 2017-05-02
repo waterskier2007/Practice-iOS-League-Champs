@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E99D81988540A04CFBF36BA /* Pods_League_ChampsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5303234FF23716F762A2C7BE /* Pods_League_ChampsTests.framework */; };
+		2BB97F3627F87ADDB6958F6C /* Pods_League_ChampsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C67BF0A7DC3FBE6FEDAE289 /* Pods_League_ChampsUITests.framework */; };
 		3348E0531EAAE8EE0024853E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3348E0521EAAE8EE0024853E /* AppDelegate.swift */; };
 		3348E0551EAAE8EE0024853E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3348E0541EAAE8EE0024853E /* ViewController.swift */; };
 		3348E0581EAAE8EE0024853E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3348E0561EAAE8EE0024853E /* Main.storyboard */; };
@@ -14,6 +16,9 @@
 		3348E05D1EAAE8EE0024853E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3348E05B1EAAE8EE0024853E /* LaunchScreen.storyboard */; };
 		3348E0681EAAE8EF0024853E /* League_ChampsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3348E0671EAAE8EF0024853E /* League_ChampsTests.swift */; };
 		3348E0731EAAE8EF0024853E /* League_ChampsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3348E0721EAAE8EF0024853E /* League_ChampsUITests.swift */; };
+		33883BCA1EB519C900088206 /* ChampionDetailMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33883BC91EB519C900088206 /* ChampionDetailMapper.swift */; };
+		33C123E71EAC508D00466D2A /* ChampionMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C123E61EAC508D00466D2A /* ChampionMapper.swift */; };
+		D9894A5198F6BDDBC133B6EE /* Pods_League_Champs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F09BF6B0586C80828EDB3C1B /* Pods_League_Champs.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08D0C410B89985031D160674 /* Pods-League ChampsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-League ChampsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-League ChampsTests/Pods-League ChampsTests.release.xcconfig"; sourceTree = "<group>"; };
+		3217E5F91E51D1C370F3F685 /* Pods-League Champs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-League Champs.release.xcconfig"; path = "Pods/Target Support Files/Pods-League Champs/Pods-League Champs.release.xcconfig"; sourceTree = "<group>"; };
 		3348E04F1EAAE8EE0024853E /* League Champs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "League Champs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3348E0521EAAE8EE0024853E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3348E0541EAAE8EE0024853E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,15 @@
 		3348E06E1EAAE8EF0024853E /* League ChampsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "League ChampsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3348E0721EAAE8EF0024853E /* League_ChampsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = League_ChampsUITests.swift; sourceTree = "<group>"; };
 		3348E0741EAAE8EF0024853E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33883BC91EB519C900088206 /* ChampionDetailMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChampionDetailMapper.swift; sourceTree = "<group>"; };
+		33C123E61EAC508D00466D2A /* ChampionMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChampionMapper.swift; path = "League Champs/ChampionMapper.swift"; sourceTree = "<group>"; };
+		5303234FF23716F762A2C7BE /* Pods_League_ChampsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_League_ChampsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		574B9F59FCEDA29BB3F0D495 /* Pods-League ChampsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-League ChampsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-League ChampsUITests/Pods-League ChampsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5BE8087550B747DA18623519 /* Pods-League Champs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-League Champs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-League Champs/Pods-League Champs.debug.xcconfig"; sourceTree = "<group>"; };
+		7C67BF0A7DC3FBE6FEDAE289 /* Pods_League_ChampsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_League_ChampsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F707A4A66963AC4DD744691 /* Pods-League ChampsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-League ChampsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-League ChampsUITests/Pods-League ChampsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA72BABA9B34EC8C29E6FA3B /* Pods-League ChampsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-League ChampsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-League ChampsTests/Pods-League ChampsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F09BF6B0586C80828EDB3C1B /* Pods_League_Champs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_League_Champs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9894A5198F6BDDBC133B6EE /* Pods_League_Champs.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E99D81988540A04CFBF36BA /* Pods_League_ChampsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BB97F3627F87ADDB6958F6C /* Pods_League_ChampsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E98A3FA7799CC0F52C59DCF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BE8087550B747DA18623519 /* Pods-League Champs.debug.xcconfig */,
+				3217E5F91E51D1C370F3F685 /* Pods-League Champs.release.xcconfig */,
+				EA72BABA9B34EC8C29E6FA3B /* Pods-League ChampsTests.debug.xcconfig */,
+				08D0C410B89985031D160674 /* Pods-League ChampsTests.release.xcconfig */,
+				8F707A4A66963AC4DD744691 /* Pods-League ChampsUITests.debug.xcconfig */,
+				574B9F59FCEDA29BB3F0D495 /* Pods-League ChampsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3348E0461EAAE8EE0024853E = {
 			isa = PBXGroup;
 			children = (
+				33C123E81EAD3E3A00466D2A /* ObjectMapperFiles */,
 				3348E0511EAAE8EE0024853E /* League Champs */,
 				3348E0661EAAE8EF0024853E /* League ChampsTests */,
 				3348E0711EAAE8EF0024853E /* League ChampsUITests */,
 				3348E0501EAAE8EE0024853E /* Products */,
+				0E98A3FA7799CC0F52C59DCF /* Pods */,
+				794DD68600289554840C538F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +160,25 @@
 			path = "League ChampsUITests";
 			sourceTree = "<group>";
 		};
+		33C123E81EAD3E3A00466D2A /* ObjectMapperFiles */ = {
+			isa = PBXGroup;
+			children = (
+				33C123E61EAC508D00466D2A /* ChampionMapper.swift */,
+				33883BC91EB519C900088206 /* ChampionDetailMapper.swift */,
+			);
+			name = ObjectMapperFiles;
+			sourceTree = "<group>";
+		};
+		794DD68600289554840C538F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F09BF6B0586C80828EDB3C1B /* Pods_League_Champs.framework */,
+				5303234FF23716F762A2C7BE /* Pods_League_ChampsTests.framework */,
+				7C67BF0A7DC3FBE6FEDAE289 /* Pods_League_ChampsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3348E0771EAAE8EF0024853E /* Build configuration list for PBXNativeTarget "League Champs" */;
 			buildPhases = (
+				DF0731D58F81ABBEBA0FD750 /* [CP] Check Pods Manifest.lock */,
 				3348E04B1EAAE8EE0024853E /* Sources */,
 				3348E04C1EAAE8EE0024853E /* Frameworks */,
 				3348E04D1EAAE8EE0024853E /* Resources */,
+				E192C25E3347C9C8B16D8512 /* [CP] Embed Pods Frameworks */,
+				DA0C2C67BCBB9D80F36BDAC3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3348E07A1EAAE8EF0024853E /* Build configuration list for PBXNativeTarget "League ChampsTests" */;
 			buildPhases = (
+				17C5725AE7DA34A2EF92DD84 /* [CP] Check Pods Manifest.lock */,
 				3348E05F1EAAE8EF0024853E /* Sources */,
 				3348E0601EAAE8EF0024853E /* Frameworks */,
 				3348E0611EAAE8EF0024853E /* Resources */,
+				260B957F61008FDA553D297A /* [CP] Embed Pods Frameworks */,
+				8A24A52AB11CF6F9E9D7F0AA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3348E07D1EAAE8EF0024853E /* Build configuration list for PBXNativeTarget "League ChampsUITests" */;
 			buildPhases = (
+				D62F6212846C234FC713DAB4 /* [CP] Check Pods Manifest.lock */,
 				3348E06A1EAAE8EF0024853E /* Sources */,
 				3348E06B1EAAE8EF0024853E /* Frameworks */,
 				3348E06C1EAAE8EF0024853E /* Resources */,
+				DD23FC35B7BBB1E8DA6B674E /* [CP] Embed Pods Frameworks */,
+				2B1711F7D8A75C762BC121A2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,13 +256,16 @@
 				TargetAttributes = {
 					3348E04E1EAAE8EE0024853E = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0830;
 					};
 					3348E0621EAAE8EF0024853E = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0830;
 						TestTargetID = 3348E04E1EAAE8EE0024853E;
 					};
 					3348E06D1EAAE8EF0024853E = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0830;
 						TestTargetID = 3348E04E1EAAE8EE0024853E;
 					};
 				};
@@ -251,13 +317,153 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17C5725AE7DA34A2EF92DD84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		260B957F61008FDA553D297A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-League ChampsTests/Pods-League ChampsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B1711F7D8A75C762BC121A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-League ChampsUITests/Pods-League ChampsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A24A52AB11CF6F9E9D7F0AA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-League ChampsTests/Pods-League ChampsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D62F6212846C234FC713DAB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DA0C2C67BCBB9D80F36BDAC3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-League Champs/Pods-League Champs-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD23FC35B7BBB1E8DA6B674E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-League ChampsUITests/Pods-League ChampsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF0731D58F81ABBEBA0FD750 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E192C25E3347C9C8B16D8512 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-League Champs/Pods-League Champs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3348E04B1EAAE8EE0024853E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33883BCA1EB519C900088206 /* ChampionDetailMapper.swift in Sources */,
 				3348E0551EAAE8EE0024853E /* ViewController.swift in Sources */,
 				3348E0531EAAE8EE0024853E /* AppDelegate.swift in Sources */,
+				33C123E71EAC508D00466D2A /* ChampionMapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,57 +603,67 @@
 		};
 		3348E0781EAAE8EF0024853E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BE8087550B747DA18623519 /* Pods-League Champs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "League Champs/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fullsail.League-Champs";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		3348E0791EAAE8EF0024853E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3217E5F91E51D1C370F3F685 /* Pods-League Champs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "League Champs/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fullsail.League-Champs";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		3348E07B1EAAE8EF0024853E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA72BABA9B34EC8C29E6FA3B /* Pods-League ChampsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "League ChampsTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fullsail.League-ChampsTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/League Champs.app/League Champs";
 			};
 			name = Debug;
 		};
 		3348E07C1EAAE8EF0024853E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08D0C410B89985031D160674 /* Pods-League ChampsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "League ChampsTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fullsail.League-ChampsTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/League Champs.app/League Champs";
 			};
 			name = Release;
 		};
 		3348E07E1EAAE8EF0024853E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F707A4A66963AC4DD744691 /* Pods-League ChampsUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "League ChampsUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fullsail.League-ChampsUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "League Champs";
 				USES_XCTRUNNER = YES;
 			};
@@ -455,11 +671,13 @@
 		};
 		3348E07F1EAAE8EF0024853E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 574B9F59FCEDA29BB3F0D495 /* Pods-League ChampsUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "League ChampsUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fullsail.League-ChampsUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "League Champs";
 				USES_XCTRUNNER = YES;
 			};
@@ -484,6 +702,7 @@
 				3348E0791EAAE8EF0024853E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3348E07A1EAAE8EF0024853E /* Build configuration list for PBXNativeTarget "League ChampsTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +711,7 @@
 				3348E07C1EAAE8EF0024853E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3348E07D1EAAE8EF0024853E /* Build configuration list for PBXNativeTarget "League ChampsUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +720,7 @@
 				3348E07F1EAAE8EF0024853E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
