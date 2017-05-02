@@ -12,8 +12,8 @@ import ObjectMapper
 
 public class ChampionDetail: Mappable{
     
-    public var name : String!
-    public var image : String!
+    public var name : String?
+    public var image : String?
     
     
     init(){

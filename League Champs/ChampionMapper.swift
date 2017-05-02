@@ -25,10 +25,12 @@ public class ChampionList: Mappable{
         
         for champions in champs!{
             if let championData = Mapper<ChampionDetail>().map(JSON: champions.value as! [String : Any]) {
-                print(championData.name)
-                print(championData.image)
+//                print(championData.name)
+//                print(championData.image)
+                championInfo?.append(championData)
             }
         }
+        
     }
     
     
