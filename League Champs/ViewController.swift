@@ -16,32 +16,31 @@ import SVProgressHUD
 class CollectionViewController: UICollectionViewController {
     
     ///API URL
-    var champURL = "https://ddragon.leagueoflegends.com/cdn/6.24.1/data/en_US/champion.json"
-    
-    
-    //    typealias JSONStandard = [String : AnyObject]
-    var championsArray = [AnyObject]()
+    var versionURL = "https://global.api.riotgames.com/api/lol/static-data/NA/v1.2/realm?api_key=feec407a-94fe-4886-a8ed-3cc889a15c66"
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        callApi(url: champURL)    }
+        versionAPI(url: versionURL)
+    }
     
-    func callApi(url : String){
+    ///AlamoFire for Version
+    func versionAPI(url : String){
         
-        //Requesting API information
         Alamofire.request(url).responseJSON(completionHandler: {
             response in
             
             let result = response.result
-            if let dict = result.value {
-                let champData = Mapper<ChampionList>().map(JSON: dict as! [String : AnyObject])
+            if let res = result.value{
+                if let apiData = Mapper<VersionFinder>().map(JSONObject: res as! [String : AnyObject]){
+                    
+                }
                 
             }
-            
         })
         
     }
+    
     
     
     override func didReceiveMemoryWarning() {

@@ -16,6 +16,7 @@
 		3348E05D1EAAE8EE0024853E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3348E05B1EAAE8EE0024853E /* LaunchScreen.storyboard */; };
 		3348E0681EAAE8EF0024853E /* League_ChampsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3348E0671EAAE8EF0024853E /* League_ChampsTests.swift */; };
 		3348E0731EAAE8EF0024853E /* League_ChampsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3348E0721EAAE8EF0024853E /* League_ChampsUITests.swift */; };
+		335FE7DB1EB930D7009BEB10 /* VersionFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335FE7DA1EB930D7009BEB10 /* VersionFinder.swift */; };
 		33883BCA1EB519C900088206 /* ChampionDetailMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33883BC91EB519C900088206 /* ChampionDetailMapper.swift */; };
 		33C123E71EAC508D00466D2A /* ChampionMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C123E61EAC508D00466D2A /* ChampionMapper.swift */; };
 		D9894A5198F6BDDBC133B6EE /* Pods_League_Champs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F09BF6B0586C80828EDB3C1B /* Pods_League_Champs.framework */; };
@@ -54,6 +55,7 @@
 		3348E06E1EAAE8EF0024853E /* League ChampsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "League ChampsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3348E0721EAAE8EF0024853E /* League_ChampsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = League_ChampsUITests.swift; sourceTree = "<group>"; };
 		3348E0741EAAE8EF0024853E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		335FE7DA1EB930D7009BEB10 /* VersionFinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersionFinder.swift; sourceTree = "<group>"; };
 		33883BC91EB519C900088206 /* ChampionDetailMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChampionDetailMapper.swift; sourceTree = "<group>"; };
 		33C123E61EAC508D00466D2A /* ChampionMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChampionMapper.swift; path = "League Champs/ChampionMapper.swift"; sourceTree = "<group>"; };
 		5303234FF23716F762A2C7BE /* Pods_League_ChampsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_League_ChampsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -165,6 +167,7 @@
 			children = (
 				33C123E61EAC508D00466D2A /* ChampionMapper.swift */,
 				33883BC91EB519C900088206 /* ChampionDetailMapper.swift */,
+				335FE7DA1EB930D7009BEB10 /* VersionFinder.swift */,
 			);
 			name = ObjectMapperFiles;
 			sourceTree = "<group>";
@@ -460,6 +463,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				335FE7DB1EB930D7009BEB10 /* VersionFinder.swift in Sources */,
 				33883BCA1EB519C900088206 /* ChampionDetailMapper.swift in Sources */,
 				3348E0551EAAE8EE0024853E /* ViewController.swift in Sources */,
 				3348E0531EAAE8EE0024853E /* AppDelegate.swift in Sources */,

@@ -12,8 +12,8 @@ import ObjectMapper
 
 public class ChampionDetail: Mappable{
     
-    public var name : String?
-    public var image : String?
+    public var name : String!
+    public var image : String!
     
     
     init(){
@@ -21,8 +21,8 @@ public class ChampionDetail: Mappable{
     }
     
     required public init?(map: Map){
-        name    <- map["key.name"]
-        image   <- map["key.image.full"]
+        name    <- map["name"]
+        image   <- map["image.full"]
 
     }
     
