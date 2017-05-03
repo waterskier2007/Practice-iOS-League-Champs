@@ -59,22 +59,3 @@ class CollectionViewController: UICollectionViewController {
     }
     
 }
-
-class CustomFlowLayout: UICollectionViewFlowLayout {
-    
-    static let CellInset: CGFloat = 4
-    
-    override init() {
-        super.init()
-        self.scrollDirection = .horizontal
-    }
-    
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
-    static func cellSize(forBounds bounds: CGRect) -> CGSize {
-        return CGSize(width: 200, height: 200)
-    }
-    
-}
