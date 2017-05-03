@@ -3,6 +3,7 @@ PODS:
   - AlamofireObjectMapper (4.1.0):
     - Alamofire (~> 4.1)
     - ObjectMapper (~> 2.0)
+  - AsyncImageView (1.6)
   - Kingfisher (3.6.2)
   - ObjectMapper (2.2.6)
   - SVProgressHUD (2.1.2)
@@ -10,6 +11,7 @@ PODS:
 DEPENDENCIES:
   - Alamofire
   - AlamofireObjectMapper
+  - AsyncImageView
   - Kingfisher
   - ObjectMapper
   - SVProgressHUD
@@ -17,10 +19,11 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
   AlamofireObjectMapper: 435adc82f5b367679bd9e71c4974a54efd0b2521
+  AsyncImageView: 416e99402e5b1f20571de70ad619ced90f56a7d9
   Kingfisher: 2c94e72c6830622c71d06adf4ea024c37d316830
   ObjectMapper: 042708195cc46c20871cbcbec0453826398273fd
   SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
 
-PODFILE CHECKSUM: ea17caef6317520ebd7d35c40e8302c917e3f58d
+PODFILE CHECKSUM: 5e8a0111683e47cdf9458604de9ec5330fd532d0
 
 COCOAPODS: 1.2.1

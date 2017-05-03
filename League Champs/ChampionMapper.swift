@@ -13,7 +13,7 @@ import ObjectMapper
 public class ChampionList: Mappable{
     
     public var champs : [String : AnyObject]?
-    var championInfo : [ChampionDetail]?
+    var championInfo = [ChampionDetail]()
     
     init(){
         
@@ -23,11 +23,11 @@ public class ChampionList: Mappable{
         champs  <- map["data"]
         
         
-        for champions in champs!{
+        for champions in champs! {
             if let championData = Mapper<ChampionDetail>().map(JSON: champions.value as! [String : Any]) {
 //                print(championData.name)
 //                print(championData.image)
-                championInfo?.append(championData)
+                championInfo.append(championData)
             }
         }
         

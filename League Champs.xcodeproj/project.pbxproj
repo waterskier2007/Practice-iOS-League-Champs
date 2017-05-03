@@ -20,6 +20,7 @@
 		33883BCA1EB519C900088206 /* ChampionDetailMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33883BC91EB519C900088206 /* ChampionDetailMapper.swift */; };
 		33C123E71EAC508D00466D2A /* ChampionMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C123E61EAC508D00466D2A /* ChampionMapper.swift */; };
 		AB96E9871EB9923B00E4A4E4 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB96E9861EB9923B00E4A4E4 /* WebService.swift */; };
+		AB96E98A1EB996FD00E4A4E4 /* ChampionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB96E9891EB996FD00E4A4E4 /* ChampionCollectionViewCell.swift */; };
 		D9894A5198F6BDDBC133B6EE /* Pods_League_Champs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F09BF6B0586C80828EDB3C1B /* Pods_League_Champs.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +66,7 @@
 		7C67BF0A7DC3FBE6FEDAE289 /* Pods_League_ChampsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_League_ChampsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F707A4A66963AC4DD744691 /* Pods-League ChampsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-League ChampsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-League ChampsUITests/Pods-League ChampsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		AB96E9861EB9923B00E4A4E4 /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		AB96E9891EB996FD00E4A4E4 /* ChampionCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChampionCollectionViewCell.swift; sourceTree = "<group>"; };
 		EA72BABA9B34EC8C29E6FA3B /* Pods-League ChampsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-League ChampsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-League ChampsTests/Pods-League ChampsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F09BF6B0586C80828EDB3C1B /* Pods_League_Champs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_League_Champs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -136,6 +138,7 @@
 		3348E0511EAAE8EE0024853E /* League Champs */ = {
 			isa = PBXGroup;
 			children = (
+				AB96E9881EB996E200E4A4E4 /* Views */,
 				AB96E9851EB9922C00E4A4E4 /* Model */,
 				3348E0521EAAE8EE0024853E /* AppDelegate.swift */,
 				3348E0541EAAE8EE0024853E /* ViewController.swift */,
@@ -191,6 +194,14 @@
 				AB96E9861EB9923B00E4A4E4 /* WebService.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		AB96E9881EB996E200E4A4E4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AB96E9891EB996FD00E4A4E4 /* ChampionCollectionViewCell.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -477,6 +488,7 @@
 				AB96E9871EB9923B00E4A4E4 /* WebService.swift in Sources */,
 				335FE7DB1EB930D7009BEB10 /* VersionFinder.swift in Sources */,
 				33883BCA1EB519C900088206 /* ChampionDetailMapper.swift in Sources */,
+				AB96E98A1EB996FD00E4A4E4 /* ChampionCollectionViewCell.swift in Sources */,
 				3348E0551EAAE8EE0024853E /* ViewController.swift in Sources */,
 				3348E0531EAAE8EE0024853E /* AppDelegate.swift in Sources */,
 				33C123E71EAC508D00466D2A /* ChampionMapper.swift in Sources */,
